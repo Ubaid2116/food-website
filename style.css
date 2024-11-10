@@ -1,0 +1,187 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Figtree&family=Josefin+Sans:wght@600&family=Poppins:wght@500&display=swap');
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar */
+.header-main {
+    position: relative;
+    z-index: 10;
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img.logo {
+    height: 60px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0 10px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #ff5a5f;
+}
+
+.navbar-toggler {
+    border: none;
+    color: #333;
+}
+
+.navbar-toggler i {
+    font-size: 1.5rem;
+}
+
+/* Banner Section */
+.banner_wrapper {
+    padding: 100px 0;
+    background: linear-gradient(to right, #ff5a5f, #ff9068);
+    color: #ffffff;
+}
+
+.banner_wrapper h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.banner_wrapper p {
+    font-size: 1.25rem;
+    margin-top: 10px;
+    color: #f0f0f0;
+}
+
+.banner_wrapper .main-btn {
+    margin-top: 20px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #333;
+    border: 1px solid #ff5a5f;
+    transition: all 0.3s ease;
+}
+
+.banner_wrapper .main-btn:hover {
+    background-color: #ff5a5f;
+    color: #fff;
+    border-color: #333;
+}
+
+/* City Section */
+.c2 h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.c2 .col img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.c2 .col h2 {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.c2 .col:hover img {
+    transform: scale(1.05);
+}
+
+/* Connect with Us */
+.c3 h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.c3 ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.c3 ul li {
+    list-style: none;
+}
+
+.c3 ul li a {
+    color: #333;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.c3 ul li a:hover {
+    color: #ff5a5f;
+}
+
+/* Footer */
+footer {
+    background-color: #ff5a5f;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.pt-4 {
+    padding-top: 2rem;
+}
+
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.hr3 {
+    width: 50%;
+    border-top: 2px solid #ff5a5f;
+    margin: 20px auto;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e0e0e0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff5a5f;
+    border-radius: 10px;
+}
